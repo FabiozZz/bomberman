@@ -81,7 +81,6 @@ function App() {
     }, []);
 
     function onClick(cell:Omit<Cell,'isHide'|'bomb'|'point'|'flag'>,state:Cell[]) {
-        console.log('cllick')
         const findIndex = state.findIndex(_ => _.row === cell.row && _.col === cell.col);
         const copyState = [...state];
         if (findIndex >= 0) {
