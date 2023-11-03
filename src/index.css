@@ -25,3 +25,8 @@ code {
   justify-content: center;
   align-items: center;
 }
+.flag{
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
